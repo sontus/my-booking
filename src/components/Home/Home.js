@@ -1,10 +1,16 @@
 import React from 'react';
+import Hotel from './Hotel/Hotel';
+import Slider from './Slider/Slider';
+import './Home.css';
+import Car from './Car/Car';
 
 const Home = () => {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <>
+            <Slider></Slider>
+            <Hotel></Hotel>
+            <Car></Car>
+        </>
     );
 };
 
